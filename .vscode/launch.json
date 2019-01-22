@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dispatcher",
+            "request": "launch",
+            "mainClass": "Dispatcher",
+            "projectName": "Design-Pattern-Implementation_cd2126f8"
+        }
+    ]
+}
