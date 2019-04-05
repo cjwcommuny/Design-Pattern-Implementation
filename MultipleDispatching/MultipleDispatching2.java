@@ -18,10 +18,11 @@ class Operator {
 
     void apply(Value a, Value b) throws Exception {
         String currentMethodName = Thread.currentThread().getStackTrace()[1].getMethodName();
-        Method method =
-            this.getClass().getDeclaredMethod(currentMethodName, a.getClass(), b.getClass());
+        Method method = this.getClass().getDeclaredMethod(currentMethodName, a.getClass(), b.getClass());
         method.invoke(this, a, b);
     }
+    
+    void dynamicDispatch()
 }
 
 class Test {
