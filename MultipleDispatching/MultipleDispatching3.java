@@ -49,3 +49,16 @@ class Test {
         operator.apply(a2, b2);
     }
 }
+/**
+ * Shorcumming: 
+ * Cannot handle this situation:
+ * IntValue -> NumberValue -> Value
+ * 
+ * void apply(IntValue, NumberValue) {}
+ * 
+ * apply(new IntValue(), new IntValue());
+ * 
+ * Because through getClass(), we can only get the precise class so when faced with parent class, this solution failed.
+ * 
+ * 
+ */
