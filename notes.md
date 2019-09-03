@@ -1,3 +1,5 @@
+# Design Pattern
+
 ## Bridge Pattern
 
 #### 目的：
@@ -320,3 +322,36 @@ Memento Pattern常常用于历史记录/快照的恢复撤销
 ## Interpreter Pattern
 
 一个解释器/编译器前端的模式。
+
+# Invisible Design Pattern
+
+以下的语言特性使得如下的design pattern失效或化简，间references中的slides：
+
+## First-class types
+
+`Abstract-Factory`, `Flyweight`, `Factory-Method`, `State`, `Proxy`, `Chain-Of-Responsibility`
+
+## First-class functions
+
+`Command`, `Strategy`, `Template-Method`, `Visitor`
+
+## Macros
+
+`Interpreter`, `Iterator`
+
+## Method Combination
+
+`Mediator`, `Observer`
+
+## Multimethods
+
+`Builder`
+
+## Modules
+
+`Facade`
+
+
+
+
+
