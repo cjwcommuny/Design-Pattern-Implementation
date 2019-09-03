@@ -50,15 +50,14 @@ class Test {
     }
 }
 /**
- * Shorcumming: 
- * Cannot handle this situation:
- * IntValue -> NumberValue -> Value
+ * Shorcumming: Cannot handle this situation: IntValue -> NumberValue -> Value
  * 
  * void apply(IntValue, NumberValue) {}
  * 
  * apply(new IntValue(), new IntValue());
  * 
- * Because through getClass(), we can only get the precise class so when faced with parent class, this solution failed.
+ * Because through getClass(), we can only get the precise class so when faced
+ * with parent class, this solution failed.
  * 
  * 
  */
